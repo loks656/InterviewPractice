@@ -6,6 +6,12 @@ import java.util.LinkedHashSet;
 import java.util.LinkedList;
 import java.util.List;
 
+/**
+ * LinkedList
+ * Doubly Linked List
+ * Easy to add/ modify
+ * Search takes time
+ */
 public class LinkedListTest {
     LinkedList<Student> cseA = new LinkedList();
 
