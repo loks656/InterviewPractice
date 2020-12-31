@@ -1,4 +1,6 @@
-package Concepts.Collections;
+package Concepts.Collections.List;
+
+import Concepts.Collections.Student;
 
 import java.util.Vector;
 

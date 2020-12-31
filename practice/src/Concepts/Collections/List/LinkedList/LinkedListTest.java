@@ -1,10 +1,8 @@
-package Concepts.Collections.LinkedList;
+package Concepts.Collections.List.LinkedList;
 
 import Concepts.Collections.Student;
 
-import java.util.LinkedHashSet;
 import java.util.LinkedList;
-import java.util.List;
 
 /**
  * LinkedList

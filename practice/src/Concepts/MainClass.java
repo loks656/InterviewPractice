@@ -1,15 +1,12 @@
 package Concepts;
 
-import Concepts.Collections.ArrayListTest.ArrayListTest;
-import Concepts.Collections.LinkedList.LinkedListTest;
-import Concepts.Collections.Student;
-
-import java.util.ArrayList;
-import java.util.LinkedList;
+import Concepts.Collections.Set.HashSet.HashSetTest;
 
 public class MainClass {
     public static void main(String[] args) {
-        ArrayListTest arrayListTest = new ArrayListTest();
-        arrayListTest.operations();
+//        ArrayListTest arrayListTest = new ArrayListTest();
+//        arrayListTest.operations();
+        HashSetTest hashSetTest = new HashSetTest();
+        hashSetTest.operations();
     }
 }

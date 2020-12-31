@@ -2,7 +2,7 @@ package Concepts.Collections;
 
 import java.util.Comparator;
 
-public class Student implements Comparator<Student> {
+public class Student implements Comparable<Student> {
      String name;
 
     public String getName() {
@@ -27,7 +27,15 @@ public class Student implements Comparator<Student> {
         this.rollNumber = rollNumber;
     }
     @Override
-    public int compare(Student s1, Student s2) {
-        return s1.name.compareToIgnoreCase(s2.name);
+    public int compareTo(Student s1) {
+        return this.name.compareToIgnoreCase(s1.name);
+    }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "name='" + name + '\'' +
+                ", rollNumber=" + rollNumber +
+                '}';
     }
 }
